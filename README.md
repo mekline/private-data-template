@@ -8,3 +8,4 @@ Features:
 - .gitignore file that ignores the whole data folder except for that readme
 - .gitignore also has some content to play nice with Macs and R scripting
 - that's about it
+- actually also added a starter Rmd with my favorite packages etc.
