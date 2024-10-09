@@ -1,0 +1,26 @@
+---
+title: "Script Template"
+output: html_document
+params:
+  show_details: FALSE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(tidyverse)
+library(here)
+library(tidyjson)
+library(kableExtra)
+library(lubridate)
+```
+
+
+Here is a blank analysis file for working with some data. woooo
+
+**Load data files**
+
+
+```{r read_data}
+mydata = read_csv(paste0(here::here(), '/data/mydata.csv'), show_col_types = FALSE)
+```
+
